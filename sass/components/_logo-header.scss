@@ -1,0 +1,29 @@
+.header__logo {
+    margin-right: 93px;
+}
+
+.logo__change {
+    color: var(--text-black);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo__change:hover,
+.logo__change:focus {
+    color: var(--accent-color);
+}
+
+// /* .header__logo span {
+//     color: var(--text-black);
+//     transition-property: color;
+//     transition-duration: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// } */
+
+// /* .header__logo span:hover,
+// .header__logo span:focus,
+// .footer__logo span:hover,
+// .footer__logo span:focus {
+//     color: var(--accent-color);
+// } */

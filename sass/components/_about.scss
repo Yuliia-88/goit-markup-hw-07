@@ -1,0 +1,43 @@
+//* ---------------------Чем мы занимаемся--------------------- */
+.about {
+    padding-bottom: 94px;
+}
+
+.about__title,
+.team__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-list__item {
+    position: relative;
+}
+
+.about-list__photo {
+    display: block;
+}
+
+.about-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    /* font-size: 14px;
+    line-height: 16px; */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
