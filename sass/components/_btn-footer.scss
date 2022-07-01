@@ -20,11 +20,10 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-field__btn:hover,
-.footer-field__btn:focus {
-    background-color: #188CE8;
+        &:hover,
+        &:focus {
+            background-color: #188CE8;
+            }
 }
 
 .footer-field__icon {

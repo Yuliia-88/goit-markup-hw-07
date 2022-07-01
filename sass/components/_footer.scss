@@ -24,6 +24,11 @@
     font-weight: 400;
     line-height: 1.71;
     color: var(--text-white);
+    & {
+        transition-property: background-color, color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .footer-address__mail,
@@ -32,21 +37,13 @@
     font-weight: 400;
     line-height: 1.71;
     color: var(--text-footer-link);
-}
-
-.footer-address__link,
-.footer-address__mail,
-.footer-address__tel {
-    transition-property: background-color, color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-address__link:hover,
-.footer-address__link:focus,
-.footer-address__mail:hover,
-.footer-address__mail:focus,
-.footer-address__tel:hover,
-.footer-address__tel:focus {
-    color: var(--text-white);
+    & {
+        transition-property: background-color, color, box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &:hover,
+    &:focus {
+        color: var(--text-white);
+    }
 }

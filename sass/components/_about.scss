@@ -1,28 +1,24 @@
 //* ---------------------Чем мы занимаемся--------------------- */
 .about {
     padding-bottom: 94px;
-}
-
-.about__title,
-.team__title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+    &__title {
+            margin-bottom: 50px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+        }
 }
 
 .about-list {
     display: flex;
     justify-content: space-between;
-}
-
-.about-list__item {
-    position: relative;
-}
-
-.about-list__photo {
-    display: block;
+        &__item {
+            position: relative;
+        }
+        &__photo {
+            display: block;
+        }
 }
 
 .about-text {
