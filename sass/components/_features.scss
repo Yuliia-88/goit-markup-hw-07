@@ -7,9 +7,10 @@
 .features-icon {
     display: flex;
     justify-content: space-between;
-    &__icon {
+    &__item {
         margin-bottom: 30px;
         display: flex;
+        background-position: center;
         justify-content: center;
         align-items: center;
         width: 270px;
@@ -17,8 +18,19 @@
         background-color: #F5F4FA;
         border-radius: 4px;
         background-repeat: no-repeat;
-        background-position: center;
     }
+    // &__icon {
+    //     margin-bottom: 30px;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     width: 270px;
+    //     height: 120px;
+    //     background-color: #F5F4FA;
+    //     border-radius: 4px;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    // }
 }
 
 .features-list {
